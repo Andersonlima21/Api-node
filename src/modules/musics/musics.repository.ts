@@ -50,4 +50,7 @@ export const musicsRepository = {
     //     return MusicModel.findOne().sort({ releaseYear: 1 }).lean<IMusic>();
     // }
 
+    // getOldestMusic(): Promise<IMusic | null> {
+    //     return MusicModel.findOne().sort({ releaseYear: 1 }).lean<IMusic>();
+    // }
 }
